@@ -1,8 +1,3 @@
-#acessar o banco de dados via terminal:
-sudo docker exec -it sqlserver /opt/mssql-tools18/bin/sqlcmd -S localhost -U SA -P 'YourStrong!Passw0rd' -C
-#arquivo usado
-sudo docker cp ~/Documents/python/Base_BD/AdventureWorksDW2022.bak sqlserver:/var/opt/mssql/backup/
-
 # 📊 AdventureWorksProject
 
 Projeto de análise de dados com base no banco AdventureWorksDW2022, utilizando Python, Jupyter Notebooks, e visualizações interativas com Streamlit.
